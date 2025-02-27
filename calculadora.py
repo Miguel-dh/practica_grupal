@@ -9,8 +9,8 @@ def suma(a, b):
       
 suma(a, b)
 
-a=int(imput("Ingrese el primer numero:>_ "))
-b=int(imput("Ingrese el segundo numero:>_"))
+a=int(input("Ingrese el primer numero:>_ "))
+b=int(input("Ingrese el segundo numero:>_"))
 
 def resta (a,b):
     resultado=a-b
