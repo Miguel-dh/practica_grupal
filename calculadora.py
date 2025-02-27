@@ -1,9 +1,10 @@
-a = input("Ingrese el primer numero:>_")
-b = input("Ingrese el segundo numero:>_")
+a = int(input("Ingrese el primer numero:>_"))
 
-def multiplicacion():
+b = int(input("Ingrese el segundo numero:>_"))
+
+def multiplicacion(a, b):
     resultado = a * b
     print("El resultado es:", resultado)
     return resultado
 
-multiplicacion()
+multiplicacion(a, b)
